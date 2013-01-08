@@ -1,7 +1,3 @@
-= AnimateRails
-
-This project rocks and uses MIT-LICENSE.
-
 animate-rails
 ===================
 
