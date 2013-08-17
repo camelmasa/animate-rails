@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    animate-rails (0.0.5)
+    animate-rails (1.0.0)
       rails
 
 GEM
