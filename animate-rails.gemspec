@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.description = 'animate.css for rails'
   s.license     = 'MIT'
 
-  s.files = Dir['{lib,vendor}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = Dir['{lib,app}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
   s.add_dependency 'rails'
 end
