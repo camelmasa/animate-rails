@@ -5,7 +5,7 @@ animate.css for rails.
 https://github.com/daneden/animate.css
 
 
-Installation  
+Installation
 =======
 
 Add this extension to your Gemfile:

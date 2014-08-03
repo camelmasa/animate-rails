@@ -1,6 +1,5 @@
-$:.push File.expand_path('../lib', __FILE__)
-
 # Maintain your gem's version:
+$:.push File.expand_path('../lib', __FILE__)
 require 'animate-rails/version'
 
 # Describe your gem and declare its dependencies:
@@ -9,11 +8,14 @@ Gem::Specification.new do |s|
   s.version     = AnimateRails::VERSION
   s.authors     = ['Masahiro Saito']
   s.email       = ['camelmasa@gmail.com']
-  s.homepage    = 'https://github.com/camelmasa/animate-rails'
   s.summary     = 'animate.css for rails'
   s.description = 'animate.css for rails'
+  s.homepage    = 'https://github.com/camelmasa/animate-rails'
   s.license     = 'MIT'
 
-  s.files = Dir['{lib,app}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = `git ls-files`.split($/)
+  # s.test_files    = spec.files.grep(%r{^(spec)/})
+  s.require_paths = ['lib']
+
   s.add_dependency 'rails'
 end
