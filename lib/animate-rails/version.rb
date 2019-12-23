@@ -1,3 +1,3 @@
 module AnimateRails
-  VERSION = '1.0.11'
+  VERSION = '3.7.2'
 end
